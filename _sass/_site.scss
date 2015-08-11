@@ -86,7 +86,7 @@ body.about {
   #records {
     height: 66vh;
     min-height: 300px;
-    background-image: url(assets/img/records.jpg);
+    background-image: url(/assets/img/records.jpg);
     background-repeat: none;
     background-size: cover;
     padding: 20vh 5em 10em 50vw;
@@ -177,7 +177,7 @@ body.work {
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(assets/img/x.svg) no-repeat center center;
+	background: url(/assets/img/x.svg) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
