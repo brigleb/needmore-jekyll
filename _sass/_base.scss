@@ -7,9 +7,12 @@ $theme-color: #fff; // dark #b84712
 $accent-color: darken($theme-color, 10); // That is, 10% darker than the brand-color.
 
 // other colors
-$color-blue: #6FC8E1;
-$color-orange: #FE8B46;
-$color-yellow: #E6C257;
+$color-blue:    #6FC8E1;
+$color-orange:  #FE8B46;
+$color-yellow:  #E6C257;
+$color-red:     #EE6A45;
+$color-aqua:    #5FD4CA;
+$color-brown:   #CBAA94;
 
 // fonts
 $body-font: 'Copernicus-Book', Arial, 'Helvetica Neue', Helvetica, sans-serif;
