@@ -71,18 +71,68 @@ body.about {
       }
     }
   }
-  #records {
-    height: 66vh;
-    min-height: 300px;
+  .section.end {
     background-image: url(../assets/img/records.jpg);
-    background-repeat: none;
-    background-size: cover;
-    padding: 20vh 5em 10em 50vw;
   }
 }
 
 body.services {
-  
+  .section.intro {
+    padding: 10em 8em;
+  }
+  .section.service {
+    min-height: 66vh;
+    padding: 10em 50vw 10em 8em;
+    color: $color-white;
+    background-color: $color-blue;
+    background-position: right center;
+    background-repeat: no-repeat;
+    p {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        font-size: 24px;
+        line-height: 48px;
+        font-family: $header-font;
+      }
+    }
+  }
+  .section.digital {
+    background-color: $color-aqua;
+    background-image: url(../assets/img/illustration-strategy.png);
+  }
+  .section.design {
+    background-color: $color-red;
+    background-image: url(../assets/img/illustration-design.png);
+  }
+  .section.marketing {
+    background-color: $color-blue;
+    background-image: url(../assets/img/illustration-development.png);
+  }
+  .section.end {
+    background-image: url(../assets/img/coffee.jpg);
+  }
+}
+
+// General section layouts
+.section.intro {
+  min-height: 66vh;
+  padding: 10em 8em;
+  h4 {
+    max-width: 800px;
+  }
+}
+.section.end {
+  height: 66vh;
+  min-height: 300px;
+  background-color: #eee;
+  background-repeat: none;
+  background-size: cover;
+  padding: 20vh 5em 10em 50vw;
 }
 
 body.work {
