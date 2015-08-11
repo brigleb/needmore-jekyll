@@ -15,7 +15,13 @@
     {% include header.html %}
 
     <div class="container page-content">
-      <div class="wrapper">
+      <article class="wrapper blogpost">
+        <heading>
+          <img class="feature" src="{{ page.feature_image }}" />
+          <h2>{{ page.title }}</h2>
+          <h4>{{ page.lede }}</h4>
+          <h6>By Author Name - Date</h6>
+        </heading>
         {{ content }}
       </div>
     </div>

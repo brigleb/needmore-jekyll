@@ -48,8 +48,50 @@ body.home {
   }
 }
 
+<<<<<<< HEAD
 body.blog {
   
+=======
+
+body.blog {
+  .section.blog.index {
+    display: block;
+    margin: 0 auto;
+    padding: 4em 2em;
+    max-width: 1000px;
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 0;
+      a {
+        color: black;
+      }
+    }
+    h4 {
+      font-style: italic;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+article.blogpost {
+  header {
+    img {
+      max-width: 100%;
+    }
+    h2 {
+      font-weight: bold;
+    }
+    h4 {
+      font-style: italic;
+    }
+    h6 {
+      color: #bbb;
+    }
+  }
+>>>>>>> master
 }
 
 body.about {
