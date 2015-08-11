@@ -135,6 +135,29 @@ body.services {
   padding: 20vh 5em 10em 50vw;
 }
 
+body.contact {
+  .section.intro {
+    min-height: 66vh;
+    height: auto;
+    background-color: #fff;
+    background-image: url(../assets/img/phone-video.jpg);
+    background-repeat: none;
+    background-size: cover;
+    padding: 40vh 5em 10em 66vw;
+  }
+  .section.form {
+    background-color: $color-blue;
+    min-height: 100vh;
+    padding: 10em;
+    font-family: $header-font;
+    p, address {
+      font-style: normal !important;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+}
+
 body.work {
   #intro {
     height: 50vh;
