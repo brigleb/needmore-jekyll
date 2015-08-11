@@ -19,3 +19,16 @@ $header-font: 'GalaxiePolaris-Light', "Helvetica", $body-font;
 $light-grey: #696158;
 $dark-grey: #1f1f1f;
 $color-white: #fff;
+
+
+// global styles
+#masthead {
+  top: 1em;
+  left: 1em;
+  position: fixed;
+}
+#trigger-overlay {
+  top: 2em;
+  right: 2em;
+  position: fixed;
+}
