@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="24px" viewBox="0 0 39 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12072) - http://www.bohemiancoding.com/sketch -->
+    <title>Desktop-Hamburger</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="NM41-Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="NM41-Home-Desktop" sketch:type="MSArtboardGroup" transform="translate(-1325.000000, -1100.000000)" stroke-linecap="square" stroke="#222222" stroke-width="4">
+            <g id="Screen-2" sketch:type="MSLayerGroup" transform="translate(0.000000, 1025.000000)">
+                <g id="Desktop-Hamburger-+-NM_Logo-Embosser2015-Copy" transform="translate(77.000000, 41.000000)" sketch:type="MSShapeGroup">
+                    <g id="Desktop-Hamburger" transform="translate(1250.000000, 35.000000)">
+                        <path d="M0.620943461,1.493168 L34.1748811,1.493168" id="Line"></path>
+                        <path d="M0.620943461,10.452176 L34.1748811,10.452176" id="Line-Copy"></path>
+                        <path d="M0.620943461,20.157768 L34.1748811,20.157768" id="Line-Copy-2"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
