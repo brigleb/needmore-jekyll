@@ -1,0 +1,20 @@
+---
+layout: default
+title: What We Do
+body_class: services
+---
+
+<div class="section intro">
+  <h2>Latest News</h2>
+  <h4>Did we want to start this page with our latest tweet or Instagram?</h4>
+</div>
+
+<div class="section">
+  {% for post in site.posts %}
+  <article>
+    <header><a href="{{ post.url }}">{{ post.title }}</a></header>
+    <h4>{{ post.excerpt }}</h4>
+    <img src="http://placehold.it/1000x500" width="1000" height="500" alt="" />
+  </article>
+  {% endfor %}
+</div>
