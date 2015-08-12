@@ -185,3 +185,40 @@ body.work {
 @keyframes dash {
   to { stroke-dashoffset: 0; }
 }
+
+body.contact {
+  .section.intro {
+    min-height: 100vh;
+    height: auto;
+    padding: 40vh 5em 10em 66vw;
+    video#bgvid {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      background: url(../assets/img/Phone_Still.jpg) no-repeat;
+      background-size: cover;
+    }
+  }
+  .section.form {
+    background-color: $color-blue;
+    min-height: 100vh;
+    padding: 10em;
+    font-family: $header-font;
+    p, address {
+      font-style: normal !important;
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  .section.ending {
+    min-height: 100vh;
+    padding: 40vh 5em 10em 66vw;
+  }
+}
