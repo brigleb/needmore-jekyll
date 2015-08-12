@@ -2,11 +2,17 @@
 body.home {
   #intro {
     height: 100vh;
+    width: 100%;
     background-color: $color-blue;
+    .intro_svg {
+      text-align: center;
+      max-height: 50vh;
+      padding-top: 15vh;
+    }
     h4 {
       text-align: center;
       font-family: $body-font;
-      padding-top: 50vh;
+      padding-top: 30vh;
       color: $color-white;
       a {
         color: $color-white;
