@@ -6,8 +6,8 @@ input[type="text"], input[type="time"], input[type="url"], input[type="week"],
 textarea {
     background-color: #fff;
     border: thin solid #fff;
-    border-radius: 4px;
-    border-radius: .25rem;
+    // border-radius: 4px;
+    // border-radius: .25rem;
     color: #222;
     padding: 1em;
     outline: none;
@@ -56,18 +56,17 @@ textarea {
 }
 
 button, input[type="button"], input[type="reset"], input[type="submit"] {
-    letter-spacing: .1ex;
+    // letter-spacing: .1ex;
     text-transform: uppercase;
     background-color: #fff;
-    border: 2px
-    solid #222;
-    border-radius: .3rem;
+    border: 2px solid #222;
+    // border-radius: .3rem;
     color: #222;
     cursor: pointer;
     display: inline-block;
     padding: 1em;
     text-decoration: none;
-    outline: none
+    outline: none;
 }
 
 @media only screen and (min-width: 36em) {

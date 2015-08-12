@@ -8,7 +8,20 @@ body_class: home
   <h4 class="tagline">Design and marketing for <a href="#">coffee</a>, <a href="#">food &amp; drink</a>, and <a href="#">creative brands</a>.</h4>
 </div><!-- end #intro .section -->
 
-{% include work_section.html client_name="La Marzocco" count="1" background_color="ffcc33" asset_url="assets/img/lamarzocco.jpg" %}
-{% include work_section.html client_name="La Marzocco" count="2" background_color="51d7d8" asset_url="assets/img/lamarzocco.jpg" %}
-{% include work_section.html client_name="La Marzocco" count="3" background_color="ee6a45" asset_url="assets/img/lamarzocco.jpg" %}
-{% include work_section.html client_name="La Marzocco" count="4" background_color="6fc0d8" asset_url="assets/img/lamarzocco.jpg" %}
+<div class="work section" style="background-color: #ffcc33;">
+  <div class="cutout">{% include work_lamarzocco.svg %}</div>
+  <div class="foreground">
+    <div class="logo"> {% include logo_lamarzocco.svg %}</div>
+    <h4>What if we were to write some text about the project here? What would you do about that?</h4>
+    <button>Do something, man</button>
+  </div>
+</div>
+
+<div class="work section" style="background-color: #abcdef;">
+  <div class="cutout">{% include work_betsyandiya.svg %}</div>
+  <div class="foreground">
+    <div class="logo"> {% include logo_betsyandiya.svg %}</div>
+    <h4>What if we were to write some text about the project here? What would you do about that?</h4>
+    <button>Do something, man</button>
+  </div>
+</div>
