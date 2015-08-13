@@ -1,0 +1,23 @@
+<svg width="100%" height="100%" viewBox="0 0 411 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+  <title>Four Barrel</title>
+  <defs>
+      <path id="path-fourbarrel" d="M118.6,84.6l-16.5,66c0,0-1.2,0.4,0.6,13.9
+      	c1.8,13.5,6.3,141.7,6.3,141.7s-2.3,13.9,1.3,23c-0.9,11.5-1.3,35.7-1.3,35.7l1,57.4L112,463l0.3,123.1l-2.2,18.3l5.4,11.4
+      	c0,0,318.8,4.3,330.3,8.2c11.8-1.5,29-5.1,41.2-10.4c12.4-3.4,69.2-21,70.1-22.4c1-1.4,9.8-14.8,9.8-14.8l2.9-16.7
+      	c0,0-1.5-93.6,1-101.6c-2.3-5-2.2-5.1-2.2-5.1s-3.6-69.3-2.5-107.3c1.1-5.8,1.6-5.4,1.6-5.4l-0.6-12.3l-0.3-146.5
+      	c0,0,1.2-41.2,0.3-50.5c-1.5-7.7-4.4-15.1-11.4-21.5c2.6-1.7,9.2-3.5,9.2-3.5l3.2-9.8l-1.6-3.2L563.1,83l-1.3-1.3
+      	c0,0-7.5-11.7-20.6-18.6c-11.9-7-16.2-8.2-16.2-8.2s-0.3-2.6-26-1.3c-25.7,1.3-116.9,4.7-119.3,6.3c-3,0.1-60.3,0.5-67.3,0.9
+      	c-7,0.4-62.8,2.5-62.8,2.5s-68,4.8-74.2,5.7c-7.2-0.6-15.9-0.3-15.9-0.3S121,73,118.6,84.6z"></path>
+  </defs>
+  <g id="Page-1" stroke="none" stroke-width="1" fill="rgba(0,0,0,0)" fill-rule="evenodd" sketch:type="MSPage">
+      <g id="Artboard" sketch:type="MSArtboardGroup">
+          <g id="Four-Barrel" sketch:type="MSLayerGroup" transform="translate(0.000000, 0.000000)">
+              <mask id="mask-fourbarrel" sketch:name="Mask" fill="white">
+                  <use xlink:href="#path-fourbarrel"></use>
+              </mask>
+              <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-fourbarrel"></use>
+              <image sketch:type="MSBitmapLayer" mask="url(#mask-fourbarrel)" x="32" y="23" width="464" height="464" xlink:href="assets/img/work_fourbarrel.jpg"></image>
+            </g>
+        </g>
+    </g>
+</svg>
