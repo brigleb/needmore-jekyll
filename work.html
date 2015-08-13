@@ -163,7 +163,7 @@ body_class: work
                       <use xlink:href="#path-1"></use>
                   </mask>
                   <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-                  <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-25" y="-65" width="464" height="464" xlink:href="assets/img/lamarzocco.jpg"></image>
+                  <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-25" y="-65" width="464" height="464" xlink:href="assets/img/work_lamarzocco.jpg"></image>
                 </g>
             </g>
         </g>
@@ -171,4 +171,23 @@ body_class: work
     </div>
   </div><!-- end .work .section -->
 
-  {% include work_lamarzocco.svg client_name="La Marzocco" count="2" background_color="51d7d8" asset_url="assets/img/lamarzocco.jpg" %}
+  <div class="work section" style="background-color: #ffcc33;">
+    <div class="cutout">{% include work_lamarzocco.svg %}</div>
+    <div class="foreground">
+      <div class="logo"> {% include logo_lamarzocco.svg %}</div>
+    </div>
+  </div>
+
+  <div class="work section" style="background-color: #222222;">
+    <div class="cutout">{% include work_fourbarrel.svg %}</div>
+    <div class="foreground">
+      <div class="logo"> {% include logo_fourbarrel.svg %}</div>
+    </div>
+  </div>
+
+  <div class="work section" style="background-color: #abcdef;">
+    <div class="cutout">{% include work_pennerash.svg %}</div>
+    <div class="foreground">
+      <div class="logo"> {% include logo_pennerash.svg %}</div>
+    </div>
+  </div>

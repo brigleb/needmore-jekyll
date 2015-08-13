@@ -68,66 +68,6 @@ body.services {
   }
 }
 
-body.work {
-  #intro {
-    height: 50vh;
-    padding: 10em 8em;
-    h4 {
-      max-width: 800px;
-    }
-  }
-  .work.section {
-    width: 33.33%;
-    height: 33.33vw;
-    float: left;
-    .logo {
-      display: none;
-    }
-    .cutout {
-      left: 0; top: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 1;
-      text-align: center;
-      svg {
-        width: 66%;
-        // opacity: 0;
-      }
-      .strokepath {
-        // document.querySelector('#path-1').getTotalLength();
-        // https://css-tricks.com/svg-line-animation-works/
-        stroke-dasharray: 1989.442626953125;
-        stroke-dashoffset: 1989.442626953125;
-        stroke-alignment: inside;
-        animation: dash 1s linear forwards;
-        stroke: rgba(255,255,255,.8);
-      }
-      #Page-0 image {
-        animation: cutout .5s linear forwards;
-        animation-delay: 1s;
-      }
-      svg image {
-        opacity: 0;
-      }
-      svg image:hover {
-        // animation-name: cutout;
-        // animation-duration: .1s;
-        // animation-iteration-count: 1;
-        // animation-fill-mode: both;
-      }
-    }
-  }
-}
-
-// keyframes yo!
-@keyframes cutout {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-@keyframes dash {
-  to { stroke-dashoffset: 0; }
-}
-
 body.contact {
   .section.intro {
     min-height: 100vh;
