@@ -53,11 +53,6 @@ body.home {
       text-align: center;
       color: $color-white;
     }
-    button {
-      margin: 0 auto;
-      // text-align: center;
-      display: block;
-    }
   }
   .section.ending {
     min-height: 100vh;
@@ -65,17 +60,19 @@ body.home {
     background-color: $color-orange;
     img {
       width: 100%;
+      margin: 5em auto;
     }
-    h2, h4, button {
+    h2, h4, p {
       text-align: center;
       margin: 0 auto;
       display: block;
+      color: white;
     }
     h4 {
       padding: 1em;
     }
-    h2, h4 {
-      color: white;
+    p {
+      font-size: 24px;
     }
   }
 }
