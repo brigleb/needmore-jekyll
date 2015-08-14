@@ -1,12 +1,12 @@
 body.about {
-  #intro {
-    height: 66vh;
+  .section.intro {
+    min-height: 66vh;
     padding: 10em 8em;
     h4 {
       max-width: 800px;
     }
   }
-  #believe {
+  .section.believe {
     padding: 10em 8em;
     min-height: 50vh;
     background-color: $color-blue;
@@ -88,17 +88,26 @@ body.contact {
       background: url(../assets/img/Phone_Still.jpg) no-repeat;
       background-size: cover;
     }
+    .location {
+      p, address {
+        font-family: $header-font;
+        font-style: normal !important;
+        font-size: 18px;
+        line-height: 1.75em;
+      }
+      a {
+        color: black;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
   }
   .section.form {
     background-color: $color-blue;
     min-height: 100vh;
     padding: 10em;
     font-family: $header-font;
-    p, address {
-      font-style: normal !important;
-      font-size: 18px;
-      line-height: 24px;
-    }
   }
   .section.ending {
     min-height: 100vh;

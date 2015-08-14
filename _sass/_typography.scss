@@ -20,16 +20,17 @@ button {
   background-color: $color-white;
   font-weight: 600;
   font-size: 18px;
-  margin: 0 auto;
-  display: block;
   padding: .75em 1em .5em;
+  margin: 0 .5em;
   line-height: 1.25em;
   a {
     color: black;
   }
   &:hover {
     background-color: black;
-    color: $color-white;
+  }
+  &:hover a {
+    color: white;
   }
 }
 

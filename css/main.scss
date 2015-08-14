@@ -3,6 +3,8 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import 'gforms';
+
 @import 'base';
 @import 'typography';
 // @import 'modules';
@@ -13,4 +15,3 @@
 @import 'menu';
 @import 'home';
 @import 'work';
-@import 'gforms';
