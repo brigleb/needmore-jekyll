@@ -1,6 +1,5 @@
-@import
-    'normalize',
-    'skeleton';
+@import 'normalize';
+// @import 'skeleton';
 
 // orange default
 $theme-color: #fff;
@@ -29,6 +28,7 @@ $color-white: #fff;
   top: 1em;
   left: 1em;
   position: fixed;
+  z-index:99999;
 }
 #trigger-overlay {
   top: 2em;
