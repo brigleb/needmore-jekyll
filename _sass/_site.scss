@@ -35,7 +35,8 @@ body.services {
     padding: 10em 50vw 10em 8em;
     color: $color-white;
     background-color: $color-blue;
-    background-position: right center;
+    background-position: 90% 50%;
+    background-size: 40%;
     background-repeat: no-repeat;
     p {
       font-size: 24px;
@@ -53,15 +54,15 @@ body.services {
   }
   .section.digital {
     background-color: $color-aqua;
-    background-image: url(../assets/img/illustration-strategy.png);
+    background-image: url(../assets/img/illustration-strategy.svg);
   }
   .section.design {
     background-color: $color-red;
-    background-image: url(../assets/img/illustration-design.png);
+    background-image: url(../assets/img/illustration-design.svg);
   }
   .section.marketing {
     background-color: $color-blue;
-    background-image: url(../assets/img/illustration-development.png);
+    background-image: url(../assets/img/illustration-development.svg);
   }
   .section.end {
     background-image: url(../assets/img/coffee.jpg);
