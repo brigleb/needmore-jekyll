@@ -18,9 +18,9 @@ body.work {
       text-align: center;
       svg {
         width: 66%;
-        // opacity: 0;
       }
-      .strokepath {
+      .strokepath,
+      svg > g {
         // document.querySelector('#path-1').getTotalLength();
         // https://css-tricks.com/svg-line-animation-works/
         stroke-dasharray: 1989.442626953125;
@@ -29,11 +29,9 @@ body.work {
         animation: dash 1s linear forwards;
         stroke: rgba(255,255,255,.8);
       }
-      #Page-0 image {
+      image {
         animation: cutout .5s linear forwards;
         animation-delay: 1s;
-      }
-      svg image {
         opacity: 0;
       }
       svg image:hover {
