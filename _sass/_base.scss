@@ -14,8 +14,8 @@ $color-aqua:    #5FD4CA;
 $color-brown:   #CBAA94;
 
 // fonts
-$body-font: 'Copernicus-Book', Arial, 'Helvetica Neue', Helvetica, sans-serif;
-$header-font: 'GalaxiePolaris-Light', "Helvetica", $body-font;
+$body-font: 'Copernicus-Book', Cambria, Georgia, serif;
+$header-font: 'GalaxiePolaris-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Type color
 $light-grey: #696158;
@@ -31,7 +31,7 @@ $color-white: #fff;
   z-index:99999;
 }
 #trigger-overlay {
-  top: 2em;
-  right: 2em;
+  top: 3em;
+  right: 3.4em;
   position: fixed;
 }
