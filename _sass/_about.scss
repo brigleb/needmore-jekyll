@@ -1,0 +1,27 @@
+body.about {
+  .section.intro {
+    min-height: 66vh;
+    padding: 10em 8em;
+    h4 {
+      max-width: 800px;
+    }
+  }
+  .section.believe {
+    padding: 10em 8em;
+    min-height: 50vh;
+    background-color: $color-blue;
+    color: $color-white;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        font-size: 28px;
+        line-height: 56px;
+        font-family: $body-font;
+      }
+    }
+  }
+  .section.end {
+    background-image: url(../assets/img/records.jpg);
+  }
+}
