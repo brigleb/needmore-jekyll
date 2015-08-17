@@ -15,7 +15,9 @@ $color-brown:   #CBAA94;
 
 // fonts
 $body-font: 'Copernicus-Book', Cambria, Georgia, serif;
+$copernicus-font: 'Copernicus-Medium', Cambria, Georgia, serif;
 $header-font: 'GalaxiePolaris-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$polaris-font: 'GalaxiePolaris-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Type color
 $light-grey: #696158;
@@ -34,4 +36,11 @@ $color-white: #fff;
   top: 3em;
   right: 3.4em;
   position: fixed;
+}
+button, label {
+  font-family: $polaris-font;
+}
+button:hover {
+  background-color: black;
+  color: $color-white;
 }
