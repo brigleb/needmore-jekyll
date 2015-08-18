@@ -21,22 +21,26 @@ body.home {
   }
   .work.section {
     position: relative;
-    min-height: 25vh;
-    padding: 5em 2em;
+    // padding: 5em 2em;
+    height: 100vh;
     width: 100%;
     .cutout {
+      // display: none;
       z-index: 0;
       position: absolute;
       left: 0; top: 0;
       width: 100%;
       height: 100%;
-      opacity: .5;
+      opacity: .8;
       text-align: center;
+      mix-blend-mode: multiply;
       svg {
-        width: 33vmax;
+        width: 50vmax;
       }
     }
     .foreground {
+      top: 50%;
+      transform: translateY(-50%);
       position: relative;
       width: 66%;
       margin: 0 auto;
