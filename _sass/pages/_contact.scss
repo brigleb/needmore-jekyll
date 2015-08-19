@@ -37,15 +37,19 @@ body.page-template-contact {
     min-height: 100vh;
     padding: 10em;
     aside {
-      width: 40%;
-      float: left;
       margin-right: 10%;
     }
     .gform_wrapper {
-      width: 40%;
-      float: left;
       font-family: $polaris-font;
-      max-width: 500px;
+    }
+    @include bp(large) {
+      aside, .gform_wrapper {
+        float: left;
+        width: 42%;
+      }
+      .gform_wrapper {
+        max-width: 500px;
+      }
     }
   }
   .section.ending {
