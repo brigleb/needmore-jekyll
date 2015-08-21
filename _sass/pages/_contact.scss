@@ -36,7 +36,21 @@ body.page-template-contact {
     background-color: $color-blue;
     min-height: 100vh;
     padding: 10em;
-    font-family: $polaris-font;
+    aside {
+      margin-right: 10%;
+    }
+    .gform_wrapper {
+      font-family: $polaris-font;
+    }
+    @include bp(large) {
+      aside, .gform_wrapper {
+        float: left;
+        width: 42%;
+      }
+      .gform_wrapper {
+        max-width: 500px;
+      }
+    }
   }
   .section.ending {
     min-height: 100vh;
