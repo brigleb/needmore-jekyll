@@ -1,0 +1,69 @@
+body.post-type-archive-portfolio {
+  #intro {
+    height: 50vh;
+    padding: 10em 8em;
+    h4 {
+      max-width: 800px;
+    }
+  }
+  .work.section {
+    width: 33.33%;
+    height: 33.33vw;
+    float: left;
+    position: relative;
+    &:hover .logo {
+      opacity: 1;
+    }
+    &:hover .cutout {
+      opacity: 0;
+    }
+    .cutout {
+      left: 0; top: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      text-align: center;
+      position: absolute;
+      svg {
+        width: 66%;
+      }
+      .strokepath,
+      svg > g {
+        // document.querySelector('#path-1').getTotalLength();
+        // https://css-tricks.com/svg-line-animation-works/
+        stroke-dasharray: 1989.442626953125;
+        stroke-dashoffset: 1989.442626953125;
+        stroke-alignment: inside;
+        animation: dash 1s linear forwards;
+        stroke: rgba(255,255,255,.8);
+      }
+      image {
+        animation: cutout .5s linear forwards;
+        animation-delay: 1s;
+        opacity: 0;
+      }
+    }
+    .logo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      top: 50%;
+      z-index: 2;
+      padding: 0 20%;
+      svg {
+        transform: translateY(-50%);
+      }
+      opacity: 0;
+    }
+  }
+}
+
+// keyframes yo!
+@keyframes cutout {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes dash {
+  to { stroke-dashoffset: 0; }
+}

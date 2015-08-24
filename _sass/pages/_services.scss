@@ -1,0 +1,69 @@
+body.page-template-services {
+  .section.intro {
+    padding: 10em 8em;
+    background-color: white;
+  }
+  .section.service {
+    min-height: 66vh;
+    padding: 10em 50vw 10em 8em;
+    color: $color-white;
+    background-color: $color-blue;
+    background-position: 90% 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    p {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        font-size: 24px;
+        line-height: 48px;
+        font-family: $header-font;
+      }
+    }
+  }
+  .section.digital {
+    background-color: $color-aqua;
+    background-image: url(../assets/img/illustration-strategy.svg);
+  }
+  .section.design {
+    background-color: $color-red;
+    background-image: url(../assets/img/illustration-design.svg);
+  }
+  .section.marketing {
+    background-color: $color-blue;
+    background-image: url(../assets/img/illustration-development.svg);
+  }
+  .section.end {
+    background-image: url(../assets/img/coffee.jpg);
+  }
+}
+
+.section.video {
+  background: none;
+  height: 100vh;
+  padding: 0;
+  video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(../assets/img/What_We_Do_Poster.jpg) no-repeat;
+    background-size: cover;
+  }
+  .supertext {
+    padding: 50vh 8em 0 50vw;
+    min-height: 50vh;
+    position: absolute;
+  }
+
+}

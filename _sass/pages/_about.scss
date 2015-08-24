@@ -1,0 +1,51 @@
+body.page-template-about {
+  .section.intro {
+    min-height: 66vh;
+    padding: 10em 8em;
+    h4 {
+      max-width: 800px;
+    }
+    background-color: white;
+  }
+  .section.believe {
+    padding: 10em 8em;
+    min-height: 50vh;
+    background-color: $color-blue;
+    color: $color-white;
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        font-size: 28px;
+        line-height: 56px;
+        font-family: $body-font;
+      }
+    }
+  }
+  .section.video {
+    background: none;
+    // background-image: url(../assets/img/About_Us_Poster.jpg);
+    height: 100vh;
+    padding: 0;
+    video#bgvid {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+      background: url(../assets/img/About_Us_Poster.jpg) no-repeat;
+      background-size: cover;
+    }
+    .supertext {
+      padding: 30vh 8em 0 50vw;
+      min-height: 50vh;
+      position: absolute;
+    }
+
+  }
+}

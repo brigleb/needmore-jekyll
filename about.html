@@ -1,6 +1,6 @@
 ---
 layout: default
-body_class: about
+body_class: page-template-about
 ---
 
 <div class="section row intro">
@@ -22,9 +22,16 @@ body_class: about
   </ul>
 </div>
 
-<div class="section end">
-  <h4>Meet the crew. Maybe we’ll play you a record or two.</h4>
-  <button>Get in touch</button>
+<div class="section video">
+  <video autoplay loop poster="{{ site.baseurl }}/assets/img/About_Us_Poster.jpg" id="bgvid">
+    <source src="{{ site.baseurl }}/assets/img/About_Us.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/img/About_Us_Medium.mp4" type="video/mp4">
+  </video>
+  <div class="supertext">
+    <h4>Meet the crew. Maybe we’ll play you a record or two.</h4>
+    <button>Get in touch</button>
+  </div>
+
 </div>
 
 <!-- @include _footer -->
