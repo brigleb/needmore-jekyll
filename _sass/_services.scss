@@ -1,0 +1,42 @@
+body.services {
+  .section.intro {
+    padding: 10em 8em;
+  }
+  .section.service {
+    min-height: 66vh;
+    padding: 10em 50vw 10em 8em;
+    color: $color-white;
+    background-color: $color-blue;
+    background-position: 90% 50%;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    p {
+      font-size: 24px;
+      line-height: 32px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      li {
+        font-size: 24px;
+        line-height: 48px;
+        font-family: $header-font;
+      }
+    }
+  }
+  .section.digital {
+    background-color: $color-aqua;
+    background-image: url(../assets/img/illustration-strategy.svg);
+  }
+  .section.design {
+    background-color: $color-red;
+    background-image: url(../assets/img/illustration-design.svg);
+  }
+  .section.marketing {
+    background-color: $color-blue;
+    background-image: url(../assets/img/illustration-development.svg);
+  }
+  .section.end {
+    background-image: url(../assets/img/coffee.jpg);
+  }
+}
