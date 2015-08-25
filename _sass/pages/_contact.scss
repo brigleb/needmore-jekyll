@@ -1,0 +1,49 @@
+body.page-template-contact {
+  .section.intro {
+    min-height: 100vh;
+    height: auto;
+    padding: 40vh 5em 10em 66vw;
+    video#bgvid {
+      background: url(../assets/img/Phone_Still.jpg) no-repeat;
+    }
+    .location {
+      p, address {
+        font-family: $header-font;
+        font-style: normal !important;
+        font-size: 18px;
+        line-height: 1.75em;
+      }
+      a {
+        color: black;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .section.form {
+    background-color: $color-blue;
+    min-height: 100vh;
+    padding: 10em;
+    overflow: auto;
+    aside {
+      margin-right: 10%;
+    }
+    .gform_wrapper {
+      font-family: $polaris-font;
+    }
+    @include bp(large) {
+      aside, .gform_wrapper {
+        float: left;
+        width: 42%;
+      }
+      .gform_wrapper {
+        max-width: 500px;
+      }
+    }
+  }
+  .section.ending {
+    min-height: 100vh;
+    padding: 40vh 5em 10em 66vw;
+  }
+}

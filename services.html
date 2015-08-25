@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What We Do
-body_class: services
+body_class: page-template-services
 ---
 
 <div class="section intro">
@@ -42,7 +42,14 @@ body_class: services
   </ul>
 </div>
 
-<div class="section end">
-  <h4>Stop on by. We have a delightful cup of coffee waiting for you.</h4>
-  <button>Get in touch</button>
+<div class="section video">
+  <video autoplay loop poster="{{ site.baseurl }}/assets/img/What_We_Do_Poster.jpg" id="bgvid">
+    <source src="{{ site.baseurl }}/assets/img/What_We_Do_Coffee.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/img/What_We_Do_Coffee_Medium.mp4" type="video/mp4">
+  </video>
+  <div class="supertext">
+    <h4>Stop on by. We have a delightful cup of coffee waiting for you.</h4>
+    <button>Get in touch</button>
+  </div>
+
 </div>

@@ -1,17 +1,17 @@
-<svg width="100%" height="100%" viewBox="0 0 411 411" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-  <title>Hennebry Eddy</title>
+<svg width="100%" height="100%" viewBox="0 0 464 464" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+  <title>Hennebery Eddy</title>
   <defs>
       <path id="path-hennebryeddy" d="M6.2,95.3c0,0-3.4-9.9,12.5-9.6c15.9,0.3,445.9,2.4,445.9,2.4s8.8-1.4,8.4,8.4c-0.4,9.8,0.5,285.8,0.5,285.8
       	s1.6,12.6-10.1,12c-11.7-0.6-442.6,6-442.6,6s-12.9,3.3-12.7-9.1C8.4,378.7,6.2,95.3,6.2,95.3z"></path>
   </defs>
-  <g id="Page-1" stroke="none" stroke-width="1" fill="rgba(0,0,0,0)" fill-rule="evenodd" sketch:type="MSPage">
+  <g id="Page-1" stroke="none" stroke-width="2" fill="rgba(0,0,0,0)" fill-rule="evenodd" sketch:type="MSPage">
       <g id="Artboard" sketch:type="MSArtboardGroup">
-          <g id="Hennebry-Eddy" sketch:type="MSLayerGroup" transform="translate(0.000000, 39.000000)">
+          <g id="Hennebry-Eddy" sketch:type="MSLayerGroup" transform="translate(0.000000, 0.000000)">
               <mask id="mask-hennebryeddy" sketch:name="Mask" fill="white">
                   <use xlink:href="#path-hennebryeddy"></use>
               </mask>
               <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-hennebryeddy"></use>
-              <image sketch:type="MSBitmapLayer" mask="url(#mask-hennebryeddy)" x="-25" y="-65" width="464" height="464" xlink:href="assets/img/work_hennebryeddy.jpg"></image>
+              <image sketch:type="MSBitmapLayer" mask="url(#mask-hennebryeddy)" x="0" y="0" width="484" height="484" xlink:href="assets/img/work_hennebryeddy.jpg"></image>
             </g>
         </g>
     </g>
