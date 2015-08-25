@@ -7,10 +7,10 @@
     <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="Artboard-2" sketch:type="MSArtboardGroup" transform="translate(-4.000000, -3.000000)">
             <g id="kandace_1000px_high" sketch:type="MSLayerGroup" transform="translate(4.000000, 3.000000)">
-                <mask id="mask-2" sketch:name="Mask" fill="white">
+                <mask id="mask-2" sketch:name="Mask2" fill="white">
                     <use xlink:href="#path-2"></use>
                 </mask>
-                <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
+                <use id="Mask2" sketch:type="MSShapeGroup" xlink:href="#path-2"></use>
                 <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-4" y="-3" width="313" height="1000" xlink:href="assets/img/team-jpg/kandace.jpg"></image>
             </g>
         </g>

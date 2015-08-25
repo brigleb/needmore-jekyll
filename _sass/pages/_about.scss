@@ -15,23 +15,22 @@ body.page-template-about {
     overflow: hidden;
     width: 100%;
     position: relative;
-    img, svg {
+    svg {
       position: absolute;
       overflow: hidden;
       max-height: 80vh;
-      right: 60%;
       bottom: 10vh;
       z-index: 1;
-      // -webkit-filter: blur(20px);
+      // -webkit-filter: blur(10px); // a boy can dream.
     }
     .caption {
       max-width: 33vw;
       overflow: auto;
       position: absolute;
       bottom: 25vh;
-      left: 50vw;
       background-color: #fff;
       padding: 1em 2em;
+      z-index: 2;
       h4 {
         margin-bottom: .5em;
       }
@@ -54,6 +53,15 @@ body.page-template-about {
       }
     }
   }
+  #team1 { // Ray
+    svg { right: 60%; }
+    .caption { left: 50%; }
+  }
+  #team2 { // Kandace
+    svg { left: 60%; }
+    .caption { right: 50%; }
+  }
+
 
 // What we believe!
   .section.believe {

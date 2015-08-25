@@ -6,11 +6,11 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
         <g id="ray_1000px_high" sketch:type="MSLayerGroup">
-            <mask id="mask-2" sketch:name="Mask" fill="white">
+            <mask id="mask-1" sketch:name="Mask1" fill="white">
                 <use xlink:href="#path-1"></use>
             </mask>
-            <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-            <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-2" y="-3" width="294" height="1000" xlink:href="assets/img/team-jpg/ray.jpg"></image>
+            <use id="Mask1" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
+            <image sketch:type="MSBitmapLayer" mask="url(#mask-1)" x="-2" y="-3" width="294" height="1000" xlink:href="assets/img/team-jpg/ray.jpg"></image>
         </g>
     </g>
 </svg>

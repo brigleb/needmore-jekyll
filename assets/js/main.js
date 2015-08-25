@@ -3,8 +3,8 @@
 	var controller = new ScrollMagic.Controller();
 	// Define the tween
 	var team_tween = TweenMax.to("#team1 svg", 1, {
-		opacity: .5,
-		scale: .5,
+		opacity: 0,
+		scale: .8,
 		ease: Expo.easeInOut
 	});
 	// This should just target the team page (about):
@@ -15,7 +15,7 @@
 		})
 		.addIndicators()
 		.setTween(team_tween)
-		.setPin("#team1 svg")
+		.setPin("#team1 svg", {pushFollowers: false})
 		.addTo(controller);
 
 
