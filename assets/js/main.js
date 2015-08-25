@@ -1,4 +1,14 @@
 (function() {
+	// ScrollMagic
+	var controller = new ScrollMagic.Controller();
+	// This should just target the team page (about):
+	var scene = new ScrollMagic.Scene({triggerElement: "#trigger2", duration: 300})
+				// animate color and top border in relation to scroll position
+				.setTween("#animate2", {borderTop: "30px solid white", backgroundColor: "blue", scale: 0.7}) // the tween durtion can be omitted and defaults to 1
+				.addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
+				.addTo(controller);
+
+	// Adding the menu overlay
 	var triggerBttn = document.getElementById( 'trigger-overlay' ),
 		overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
