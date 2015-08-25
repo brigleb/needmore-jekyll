@@ -3,9 +3,13 @@ layout: default
 body_class: home
 ---
 
-<div class="section row" id="intro">
-  {% include home_intro.html %}
-</div><!-- end #intro .section -->
+<div class="section video row" id="intro">
+  <video autoplay loop poster="{{ site.baseurl }}/assets/img/What_We_Do_Poster.jpg" id="bgvid">
+    <source src="{{ site.baseurl }}/assets/img/What_We_Do_Coffee.webm" type="video/webm">
+    <source src="{{ site.baseurl }}/assets/img/What_We_Do_Coffee_Medium.mp4" type="video/mp4">
+  </video>
+  <h4 class="tagline">Design and marketing for <a href="#">coffee</a>, <a href="#">food &amp; drink</a>, and <a href="#">creative brands</a>.</h4>
+</div>
 
 <div class="work section" style="background-color: #ffcc33;">
   <div class="cutout">{% include work_lamarzocco.svg %}</div>
