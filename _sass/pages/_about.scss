@@ -7,6 +7,26 @@ body.page-template-about {
     }
     background-color: white;
   }
+  .section.team {
+    min-height: 100vh;
+    background-color: #eee;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    img {
+      position: absolute;
+      z-index: 1;
+      right: 60%;
+      top: 20px;
+    }
+    .caption {
+      max-width: 25vw;
+      overflow: auto;
+      position: absolute;
+      top: 25vh;
+      left: 50vw;
+    }
+  }
   .section.believe {
     padding: 10em 8em;
     min-height: 50vh;
