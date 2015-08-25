@@ -7,26 +7,54 @@ body.page-template-about {
     }
     background-color: white;
   }
+
+// One section for each team member, in theory.
   .section.team {
     min-height: 100vh;
     background-color: #eee;
     overflow: hidden;
     width: 100%;
     position: relative;
-    img {
+    img, svg {
       position: absolute;
-      z-index: 1;
+      overflow: hidden;
+      max-height: 80vh;
       right: 60%;
-      top: 20px;
+      bottom: 10vh;
+      // -webkit-filter: blur(20px);
     }
     .caption {
-      max-width: 25vw;
+      max-width: 33vw;
       overflow: auto;
       position: absolute;
-      top: 25vh;
+      bottom: 25vh;
       left: 50vw;
+      background-color: #fff;
+      padding: 1em 2em;
+      h4 {
+        margin-bottom: .5em;
+      }
+      h5 {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+        margin-bottom: 0;
+        font-weight: 400;
+        line-height: 1.66em;
+        li.title {
+          margin-bottom: .5em;
+          font-size: 18px;
+          font-family: $header-font;
+          font-weight: 700;
+        }
+      }
     }
   }
+
+// What we believe!
   .section.believe {
     padding: 10em 8em;
     min-height: 50vh;
