@@ -10,7 +10,7 @@
                 <use xlink:href="#path-1"></use>
             </mask>
             <use id="Mask" sketch:type="MSShapeGroup" xlink:href="#path-1"></use>
-            <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-2" y="-3" width="294" height="1000" xlink:href="assets/img/team-jpg/ray_1000px_high.jpg"></image>
+            <image sketch:type="MSBitmapLayer" mask="url(#mask-2)" x="-2" y="-3" width="294" height="1000" xlink:href="assets/img/team-jpg/ray.jpg"></image>
         </g>
     </g>
 </svg>
