@@ -24,6 +24,22 @@
 	// 	})
 	// 	.setPin("#team2 svg")
 	// 	.addTo(controller);
+	// Define the tween
+	var team_tween = TweenMax.to("#team2 svg", 5, {
+		opacity: 0,
+		scale: .8,
+		ease: Expo.easeInOut
+	});
+	// This should just target the team page (about):
+	var team_scene = new ScrollMagic.Scene({
+			duration: '100%',
+			triggerElement: "#team2",
+			triggerHook: 0,
+		})
+		.addIndicators()
+		.setTween(team_tween)
+		.setPin("#team2 svg")
+		.addTo(controller);
 
 	//////////////////////////////////////////////////////////////////////
 	// Adding the menu overlay
