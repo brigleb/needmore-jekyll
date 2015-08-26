@@ -1,4 +1,33 @@
 (function() {
+	// ScrollMagic
+	var controller = new ScrollMagic.Controller();
+	// Define the tween
+	var team_tween = TweenMax.to("#team1 svg", 5, {
+		opacity: 0,
+		scale: .8,
+		ease: Expo.easeInOut
+	});
+	// This should just target the team page (about):
+	var team_scene = new ScrollMagic.Scene({
+			duration: '100%',
+			triggerElement: "#team1",
+			triggerHook: 0,
+		})
+		.addIndicators()
+		.setTween(team_tween)
+		.setPin("#team1 svg")
+		.addTo(controller);
+	// Kandace
+	// var team_scene_2 = new ScrollMagic.Scene({
+	// 		triggerElement: "#team2 svg",
+	// 		triggerHook: 0
+	// 	})
+	// 	.setPin("#team2 svg")
+	// 	.addTo(controller);
+
+	//////////////////////////////////////////////////////////////////////
+	// Adding the menu overlay
+	//////////////////////////////////////////////////////////////////////
 	var triggerBttn = document.getElementById( 'trigger-overlay' ),
 		overlay = document.querySelector( 'div.overlay' ),
 		closeBttn = overlay.querySelector( 'button.overlay-close' );
