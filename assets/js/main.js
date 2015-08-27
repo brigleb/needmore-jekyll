@@ -13,19 +13,11 @@
 			triggerElement: "#team1",
 			triggerHook: 0,
 		})
-		.addIndicators()
 		.setTween(team_tween)
 		.setPin("#team1 svg")
 		.addTo(controller);
-	// Kandace
-	// var team_scene_2 = new ScrollMagic.Scene({
-	// 		triggerElement: "#team2 svg",
-	// 		triggerHook: 0
-	// 	})
-	// 	.setPin("#team2 svg")
-	// 	.addTo(controller);
 	// Define the tween
-	var team_tween = TweenMax.to("#team2 svg", 5, {
+	var team_tween_2 = TweenMax.to("#team2 svg", 5, {
 		opacity: 0,
 		scale: .8,
 		ease: Expo.easeInOut
@@ -36,8 +28,7 @@
 			triggerElement: "#team2",
 			triggerHook: 0,
 		})
-		.addIndicators()
-		.setTween(team_tween)
+		.setTween(team_tween_2)
 		.setPin("#team2 svg")
 		.addTo(controller);
 
