@@ -21,7 +21,7 @@ button {
   font-size: 16px;
   font-weight: 600;
   padding: .75em 1em .5em;
-  margin: 0 .5em;
+  // margin: 0 .5em;
   line-height: 1.25em;
   @include bp(large) {
     font-size: 19px;
@@ -90,7 +90,7 @@ body {
 h1,h2,h3,h4,h5,h6 {
     line-height: 1.125em;
     margin:0 0 .675em 0;
-
+    clear: both;
     font-family: $header-font;
     font-style: normal;
     font-weight: normal;
