@@ -162,11 +162,12 @@ article.blogpost {
   .call-to-action {
     clear: both;
     min-height: 75vh;
+    width: 100%;
     background: #eee;
     .supertext {
       position: relative;
       top: 33vh;
-      left: 50vh;
+      left: 50vw;
       width: 33vw;
     }
   }
