@@ -45,6 +45,9 @@ nav {
     @include bp(large) {
       position: fixed;
     }
+    #NM41-Homepage {
+      border: 2px solid white;
+    }
   }
 }
 button, label {
