@@ -78,17 +78,15 @@ h1, h2 {
   }
 }
 
-h3, h4 {
-  margin-top: 2em;
-  font: 700 14px/21px $body-font-bold;
+h3, h4, h5, h6 {
+  font: 400 14px/21px $body-font;
   @include bp(large) {
-    font-size: 28px;
-    line-height: 44px;
+    font: 400 18px/26px $body-font;
   }
 }
 
 h5, h6 {
-  font-size: em(18, 15);
+  font: 400 14px/21px $header-font;
 }
 
 a {
