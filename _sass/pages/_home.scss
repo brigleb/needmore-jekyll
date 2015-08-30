@@ -60,8 +60,14 @@ body.home {
   }
   .section.ending {
     min-height: 100vh;
-    padding: 8em;
+    padding: 2em;
     background-color: $color-orange;
+    @include bp(medium) {
+      padding: 4em;
+    }
+    @include bp(large) {
+      padding: 8em;
+    }
     svg, img {
       width: 100%;
       margin: 5em auto;
@@ -75,8 +81,10 @@ body.home {
     h4 {
       padding: 1em;
     }
-    p {
-      font-size: 24px;
+    button {
+      clear: both;
+      display: block;
+      margin: 0 auto;
     }
   }
 }

@@ -69,12 +69,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1, h2 {
-  font-size: 48px;
-  line-height: 60px;
-  font-weight: 100;
+  font: 100 32px/40px $header-font;
+  @include bp(medium) {
+    font: 100 36px/48px $header-font;
+  }
   @include bp(large) {
-    font-size: 54px;
-    line-height: 80px;
+    font: 100 54px/80px $header-font;
   }
 }
 
