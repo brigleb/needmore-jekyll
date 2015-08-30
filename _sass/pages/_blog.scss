@@ -67,21 +67,14 @@ article.blogpost {
     margin: 1em auto;
   }
   header {
-    padding: 0 20px;
+    padding: 0 20px 2em 20px;
     h2 {
       font-weight: bold;
       margin: 0;
     }
     h4 {
-      font-style: italic;
-    }
-    h6 {
-      font-family: $header-font;
-      color: #bbb;
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 1px;
-      font-size: 14px;
+      margin-top: 0;
+      font: 400 18px/24px $body-font;
     }
   }
   article {
