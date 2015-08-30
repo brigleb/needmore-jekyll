@@ -1,3 +1,4 @@
+// Styles for main blog index page
 body.blog {
   .section.intro {
     min-height: 0;
@@ -55,6 +56,7 @@ body.blog {
 // Let's think this through:
 $post_width: 800px;
 
+// Individual blog post styles
 article.blogpost {
   img.feature {
     max-width: 100%;
@@ -108,20 +110,60 @@ article.blogpost {
       padding-left: 0;
       list-style-type: none;
     }
+    ul.tags {
+      padding-bottom: 5em;
+      margin-bottom: 3em;
+      border-bottom: 1px solid #999;
+      li {
+        float: left;
+        padding: 0 1em;
+        background-color: #eee;
+        border-radius: 1em;
+        line-height: 2em;
+        margin-right: 1em;
+        font-family: $header-font;
+        a {
+          color: black;
+        }
+      }
+      li:hover {
+        background-color: #555;
+        a {
+          color: white;
+        }
+      }
+    }
+    ul.social {
+      li {
+        float: left;
+        padding: 0 1em 0 0;
+      }
+    }
     ul.recent {
       li {
         list-style-type: none;
         width: 30%;
         float: left;
-        margin: 1.66%;
+        margin-left: 20px;
         img {
           width: 100%;
           height: auto;
         }
       }
+      li:first-child {
+        margin-left: 0;
+      }
     }
-    .call-to-action {
-      clear: both;
+  }
+  .call-to-action {
+    clear: both;
+    min-height: 75vh;
+    background: #eee;
+    .supertext {
+      position: relative;
+      top: 33vh;
+      left: 50vh;
+      width: 33vw;
     }
   }
 }
