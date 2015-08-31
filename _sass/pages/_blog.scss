@@ -55,8 +55,6 @@ body.blog {
 
 // Let's think this through:
 $post_width: 800px;
-$base_font_size: 1.333em;
-$base_font_height: 1.666em;
 
 // Individual blog post styles
 article.blogpost {
@@ -69,45 +67,32 @@ article.blogpost {
     margin: 1em auto;
   }
   header {
-    padding: 0 20px;
+    padding: 0 20px 2em 20px;
     h2 {
       font-weight: bold;
       margin: 0;
     }
     h4 {
-      font-style: italic;
-    }
-    h6 {
-      font-family: $header-font;
-      color: #bbb;
-      text-transform: uppercase;
-      font-weight: bold;
-      letter-spacing: 1px;
-      font-size: 14px;
+      margin-top: 0;
+      font: 400 18px/24px $body-font;
     }
   }
   article {
     max-width: $post_width;
     margin: 0 auto;
     display: block;
-    h2, h3, h4, p, blockquote {
+    h3, h4 {
+      margin-top: 2em;
+      font: 700 14px/21px $body-font-bold;
+      @include bp(large) {
+        font: 700 19px/28px $body-font-bold;
+      }
+    }
+    h2, h3, h4, p {
       padding: 0 20px;
     }
-    h2, h3, h4 {
-      font-size: 2em;
-      font-weight: bold;
-    }
     p {
-      font-size: $base_font_size;
-      line-height: $base_font_height;
       margin: 1em 0;
-    }
-    blockquote {
-      font-size: $base_font_size * 1.333;
-      line-height: $base_font_height;
-      font-style: italic;
-      color: #555;
-      // font-weight: 600;
     }
     img {
       max-width: 100%;
@@ -115,20 +100,21 @@ article.blogpost {
     }
   }
   footer {
+    clear: both;
     padding: 0 20px;
     h4 {
       font-family: $header_font;
       font-weight: 700;
-      // text-align: center;
     }
     ul {
       padding-left: 0;
       list-style-type: none;
+      clear: both;
     }
     ul.tags {
-      padding-bottom: 5em;
-      margin-bottom: 3em;
-      border-bottom: 1px solid #999;
+      width: 50%;
+      float: left;
+      clear: left;
       li {
         float: left;
         padding: 0 1em;
@@ -149,35 +135,39 @@ article.blogpost {
       }
     }
     ul.social {
+      width: 50%;
+      float: right;
+      clear: right;
       li {
-        float: left;
+        float: right;
         padding: 0 1em 0 0;
+        opacity: .5;
       }
     }
-    ul.recent {
-      li {
-        list-style-type: none;
-        width: 30%;
+    .section.team {
+      padding-top: 3em;
+      margin-top: 5em;
+      // border-top: 1px solid #999;
+      width: 100%;
+      margin-bottom: 3em;
+      clear: both;
+      svg {
+        height: 240px;
         float: left;
-        margin-left: 20px;
-        img {
-          width: 100%;
-          height: auto;
-        }
-      }
-      li:first-child {
-        margin-left: 0;
+        width: 80px;
+        margin-right: 2em;
       }
     }
   }
   .call-to-action {
     clear: both;
     min-height: 75vh;
+    width: 100%;
     background: #eee;
     .supertext {
       position: relative;
       top: 33vh;
-      left: 50vh;
+      left: 50vw;
       width: 33vw;
     }
   }

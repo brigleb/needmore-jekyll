@@ -4,7 +4,10 @@ body.home {
     width: 100%;
     h4 {
       text-align: center;
-      font-family: $body-font;
+      font: 300 18px/32px $body-font;
+      @include bp(large) {
+        font: 300 28px/48px $body-font;
+      }
       padding-top: 47vh;
       color: black;
       a {
@@ -49,7 +52,9 @@ body.home {
     .logo {
       z-index: 2;
       display: block;
-      width: 50%;
+      @include bp(large) {
+        width: 50%;        
+      }
       margin: 0 auto;
       margin-bottom: 4em;
     }
@@ -60,8 +65,14 @@ body.home {
   }
   .section.ending {
     min-height: 100vh;
-    padding: 8em;
+    padding: 2em;
     background-color: $color-orange;
+    @include bp(medium) {
+      padding: 4em;
+    }
+    @include bp(large) {
+      padding: 8em;
+    }
     svg, img {
       width: 100%;
       margin: 5em auto;
@@ -75,8 +86,10 @@ body.home {
     h4 {
       padding: 1em;
     }
-    p {
-      font-size: 24px;
+    button {
+      clear: both;
+      display: block;
+      margin: 0 auto;
     }
   }
 }
