@@ -61,11 +61,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
   line-height: 1.125em;
   margin:0 0 .675em 0;
-
-  font-family: $header-font;
-  font-style: normal;
-  font-weight: normal;
-  font-stretch: normal;
+  font: {
+    family: $header-font;
+    style: normal;
+    weight: normal;
+    stretch: normal;
+  }
 }
 
 h1, h2 {
@@ -129,17 +130,14 @@ em {
 }
 
 button {
+  font: 600 16px/1.25em $header-font-medium;
   border: 2px solid black;
   text-transform: uppercase;
-  font-family: $header-font;
   background-color: $color-white;
-  font-size: 16px;
-  font-weight: 600;
   padding: .75em 1em .5em;
-  // margin: 0 .5em;
   line-height: 1.25em;
   @include bp(large) {
-    font-size: 19px;
+    font: 600 19px/1.5em $header-font-medium;
     border: 3px solid black;
   }
   a {

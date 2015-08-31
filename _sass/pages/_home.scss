@@ -4,7 +4,10 @@ body.home {
     width: 100%;
     h4 {
       text-align: center;
-      font-family: $body-font;
+      font: 300 18px/32px $body-font;
+      @include bp(large) {
+        font: 300 28px/48px $body-font;
+      }
       padding-top: 47vh;
       color: black;
       a {
@@ -49,7 +52,9 @@ body.home {
     .logo {
       z-index: 2;
       display: block;
-      width: 50%;
+      @include bp(large) {
+        width: 50%;        
+      }
       margin: 0 auto;
       margin-bottom: 4em;
     }
