@@ -1,11 +1,10 @@
 @import 'vendor/normalize';
-// @import 'skeleton';
 
-// orange default
+// default
 $theme-color: #fff;
 $accent-color: darken($theme-color, 10); // That is, 10% darker than the brand-color.
 
-// other colors
+// identity colors
 $color-blue:    #6FC8E1;
 $color-orange:  #FE8B46;
 $color-yellow:  #E6C257;
@@ -13,17 +12,17 @@ $color-red:     #EE6A45;
 $color-aqua:    #5FD4CA;
 $color-brown:   #CBAA94;
 
-// fonts
-$body-font: 'Copernicus-Book', Cambria, Georgia, serif;
-$body-font-bold: 'Copernicus-Medium', Cambria, Georgia, serif;
-$header-font: 'GalaxiePolaris-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$polaris-font: 'GalaxiePolaris-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-
 // Type color
-$light-grey: #696158;
-$dark-grey: #1f1f1f;
-$color-white: #fff;
+$light-grey:    #696158;
+$dark-grey:     #1f1f1f;
+$color-white:   #ffffff;
 
+// fonts
+$body-font: 'Copernicus-Book', Cambria, Georgia, serif; // about 300
+$body-font-bold: 'Copernicus-Medium', Cambria, Georgia, serif; // about 500?
+$header-font: 'GalaxiePolaris-Light', 'Helvetica Neue', Helvetica, Arial, sans-serif; // about 100
+$header-font-medium: 'GalaxiePolaris-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif; // about 500?
+// TODO: Finalize these decisions, and minimize the number of fonts we're using
 
 // global styles, persistent navigation
 nav {
@@ -51,12 +50,13 @@ nav {
   }
 }
 button, label {
-  font-family: $polaris-font;
+  font-family: $header-font-medium;
 }
 button:hover {
   background-color: black;
   color: $color-white;
 }
+
 // General styles for sitewide background video effect
 video#bgvid {
   position: fixed;
@@ -70,5 +70,6 @@ video#bgvid {
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
   //background: url(../assets/img/Phone_Still.jpg) no-repeat;
+  // TODO: We need a better way to handle this so it is the same size as the video frame
   background-size: cover;
 }
